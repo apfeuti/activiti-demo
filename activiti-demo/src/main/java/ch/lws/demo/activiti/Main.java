@@ -60,7 +60,7 @@ public class Main {
 			taskService.complete(task.getId());
 		}
 
-		System.out.println("Number of tasks for fozzie: "
+		System.out.println("Number of tasks for fozzie : "
 				+ taskService.createTaskQuery().taskAssignee("fozzie").count());
 
 		// Retrieve and claim the second task
