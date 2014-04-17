@@ -6,5 +6,6 @@
 
 	<bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
 		<property name="databaseSchemaUpdate" value="true"/>
+		<property name="history" value="full" />
 	</bean>
 </beans>
