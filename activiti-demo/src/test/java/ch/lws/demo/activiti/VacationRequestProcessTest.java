@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 public class VacationRequestProcessTest {
 
 	private static final Logger LOG = LoggerFactory
-			.getLogger(VacationRequestProcessTest.class);;
+			.getLogger(VacationRequestProcessTest.class);
 	@Rule
 	public ActivitiRule activitiRule = new ActivitiRule();
 
